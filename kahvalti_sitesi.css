@@ -1,0 +1,107 @@
+body{
+    font-family: monospace !important;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.navbar-toggler{
+    border:none !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: green !important;
+}
+.nav-item a{
+    color: green !important;
+    font-size: 18px;
+}
+.nav-item a:hover{
+    color:black !important;
+}
+.fa-shopping-cart{
+    font-size: 30px;
+    color: green;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.material-icons{
+    font-size: 50px !important;
+    color:green;
+}
+#headerSection{
+    background: url("images/kapak.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.headerformdiv{
+    position: relative;
+    top: 20%;
+}
+.forminput{
+    width: 360px !important;
+    border-radius:.3rem 0 0 .3rem !important;
+}
+.formbtn{
+    border-radius:0 .3rem .3rem 0 !important;
+}
+
+#yemekler .col-md-3{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.imgContainer{
+    cursor: pointer;
+}
+
+.imgContainer .img-fluid{
+    position: relative;
+
+}
+.imgOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.55);
+    opacity: 0;
+    transition: .5s ease;
+}
+.imgContainer:hover .imgOverlay{
+    opacity: .8;
+}
+.imgText{
+    color: black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#hakkimizda h3{
+    padding-left: 20px;
+    border-left: 4px solid orange;
+}
+#hakkimizda p {
+    line-height: 20px;
+    font-size: 15px;
+    color: #5a5a5a;
+}
+#hakkimizda .btn{
+    border: none;
+    padding: 0;
+    color: green
+}
+#hakkimizda .btn:hover{
+    background-color: transparent;
+    color: black;
+
+}
